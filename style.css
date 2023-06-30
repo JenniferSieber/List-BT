@@ -1,0 +1,26 @@
+/* extras beyond bootstrap */
+#main-header {
+  background: rgb(139, 122, 153);
+}
+h1 {
+  font-size: 3.5rem;
+  padding-bottom: .5rem;
+  /* border-bottom: 2px solid rgb(75, 60, 87); */
+  border-bottom: 2px solid rgb(247, 193, 93);
+}
+h4 {
+  font-size: 1.5rem;
+}
+.btn {
+  background: rgb(117, 94, 136);
+  color: white;
+  font-weight: bold;
+  padding: .5rem;
+  margin-top: .5rem;
+}
+
+.delete {
+  background: rgb(247, 193, 93);
+  color: white;
+  font-weight: bold;
+}
