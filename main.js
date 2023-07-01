@@ -14,11 +14,13 @@ function addItem(e) {
   let newItem = document.querySelector('#item').value;
   let li = document.createElement('li');
   li.className = 'list-group-item';
+  li.appendChild(document.createTextNode(newItem));
+  
   let deleteBtn = document.createElement('button');
   deleteBtn.className = 'btn btn-sm float-right delete';
   deleteBtn.appendChild(document.createTextNode('X'));
   li.appendChild(deleteBtn);
-  li.appendChild(document.createTextNode(newItem));
+  
   itemList.appendChild(li);
 }
 
